@@ -1,0 +1,35 @@
+/* Element Selector */
+h1 {
+    color: brown;
+    background-color: aqua;
+}
+
+/* Grouping and class selector */
+h1,
+.par {
+    background-color: aquamarine;
+}
+
+/* ID Selector */
+#p1 {
+    color: blue;
+}
+
+#p2 {
+    color: red;
+}
+
+#p3 {
+    color: brown;
+}
+
+/* Universal Selector */
+* {
+    color: yellowgreen;
+}
+
+
+/* Sudo Selector */
+#hover:hover {
+    background-color: black;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 50px;
+    background-color: beige;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        background-color: red;
+    }
+
+    section p {
+       font-size: 30px;
+       background-color: aquamarine;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        background-color: rgb(250, 247, 47);
+    }
+
+    section p {
+       font-size: 30px;
+       background-color: rgb(77, 33, 180);
+    }
+}

@@ -1,0 +1,19 @@
+.color {
+    color: antiquewhite;
+    background-color: #2e035f;
+}
+
+.background {
+    height: 200px;
+    background-image: url('../Day2/image.png');
+}
+
+.background-op {
+    background-color: rgba(187, 25, 25, 0.3);
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+}

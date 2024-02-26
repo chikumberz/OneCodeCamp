@@ -1,0 +1,30 @@
+.font-example {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#formatting-example {
+    color: red;
+    font-size: 16px;
+}
+
+#formatting-example #bold {font-weight: bold;}
+#formatting-example #italic {font-style: italic;}
+#formatting-example #underline {text-decoration: underline;}
+
+.alignment {
+    text-align: center;
+}
+
+.decoration {
+    text-decoration: line-through;
+}
+
+.line-spacing {
+    line-height: 3;
+    letter-spacing: 5px;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
