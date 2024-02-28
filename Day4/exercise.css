@@ -63,6 +63,14 @@ footer {
     }
 
 @media screen and (max-device-width: 760px), screen and (max-width: 760px) {
+    header h1 {
+        font-size: 52px;
+    }
+
+    header nav {
+        font-size: 52px;
+    }
+
     main section#left,
     main section#right {
         float: none;
@@ -70,8 +78,13 @@ footer {
     }
 
     main section#right {
+        margin-top: 50px;
         color: white;
         background-color: blueviolet;
+    }
+
+    footer p {
+        font-size: 36px;
     }
 }
 

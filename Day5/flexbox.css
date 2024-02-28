@@ -1,0 +1,57 @@
+.flex-container {
+    border: 2px solid black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex-item {
+    background-color: #f2f2f2;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.flex1 {
+    /* font-size: 50px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 5; */
+    /* flex-basis: 300px; */
+    /* flex: 1 5 300px; */
+}
+
+.flex6 {
+    align-self: center;
+}
+
+.flex2 {
+
+}
+
+.flex3 {
+
+}
+
+.axis {
+
+}
+
+/* .main-axis {
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    width: 2160px;
+    background-color: red;
+}
+
+.cross-axis {
+    position: absolute;
+    right: 50%;
+    height: 1080px;
+    width: 3px;
+    background-color: blue;
+} */
