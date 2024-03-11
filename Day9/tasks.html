@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        input {
+            flex-grow: 1;
+            padding: 8px;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .remove-task {
+            background-color: red;
+            margin-left: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .task-msg {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <h1>Task Manager</h1>
+
+        <form action="" id="task-form">
+            <input type="text" id="task-field" name="task-field" placeholder="Add Task">
+            <button type="submit" id="add-task">Add Task</button>
+        </form>
+
+        <span id="task-err" class="task-msg"></span>
+
+        <ul id="task-list"></ul>
+    </section>
+
+    <script src="./tasks.js"></script>
+</body>
+</html>
