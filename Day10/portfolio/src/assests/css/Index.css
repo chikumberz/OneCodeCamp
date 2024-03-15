@@ -1,0 +1,61 @@
+.banner-img img {
+    height: 520px;
+}
+
+.banner-content {
+
+}
+
+.banner-content .banner-title {
+
+}
+
+
+.contact-me-btn {
+    padding: 10px;
+    border-radius: 3px;
+    color: #e9315b;
+    background-color: #ffff;
+    border: 1px solid #e9315b;
+    border-radius: 10px;
+    font-family: "Pacifico", cursive;
+}
+
+.slider {
+    background-color: #087e8b;
+    background-repeat: repeat-x;
+}
+
+    .slider .slider-title {
+        font-family: "Pacifico", cursive;
+        font-size: 42px;
+        margin-bottom: 15px;
+        color: #fff;
+        text-shadow: 2px 2px 5px #6b6b6b;
+    }
+
+.box-container {
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+    .box-container img {
+        object-fit: cover;
+        height: 250px;
+        width: 100%;
+    }
+
+    .box-container .box-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 15px;
+    }
+
+    .box-container .box-caption h3 {
+        font-family: "Pacifico", cursive;
+        margin-bottom: 5px;
+        color: #fff;
+    }

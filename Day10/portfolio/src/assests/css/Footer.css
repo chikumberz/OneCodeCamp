@@ -1,0 +1,19 @@
+.footer {
+    background-color: #e35066;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer .footer-socials {
+    margin-bottom: 20px;
+}
+
+.footer .footer-socials span {
+    font-size: 18px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.footer .footer-socials span:hover {
+    color: #2cf3ff;
+}

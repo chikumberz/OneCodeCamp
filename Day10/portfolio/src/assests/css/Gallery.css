@@ -1,0 +1,20 @@
+.gallery {
+    margin-top: 50px;
+    height: 1000px;
+}
+
+.gallery .gallery-item {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 8px #757575;
+    width: 300px;
+}
+
+.gallery .gallery-item img {
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+
+.gallery .gallery-item img:hover {
+    transform: scale(1.5);
+}

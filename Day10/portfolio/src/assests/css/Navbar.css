@@ -1,0 +1,12 @@
+.navbar {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+.navbar .navigation li {
+    padding: 0px 15px;
+}
+
+.navbar .navigation li a.active {
+    color: #f62343;
+}
